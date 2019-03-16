@@ -1,0 +1,176 @@
+
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-webkit-overflow-scrolling : touch;
+}
+
+/* 禁止缩放表单 */
+input[type=“submit”], input[type=“reset”], input[type=“button”], input {
+resize: none;
+border: none;
+}
+
+/* 取消链接高亮 */
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* 设置HTML5元素为块 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+margin: 0;
+padding: 0;
+}
+body,html{overflow: hidden;width: 100%;height:100%;position: fixed;top: 0;bottom: 0;left: 0;right: 0;-webkit-overflow-scrolling: auto;min-height: 100%;}
+body {
+font: 12px/1.5 ‘Microsoft YaHei’,‘宋体’, Tahoma, Arial, sans-serif;
+color: #555;
+background-color: #F7F7F7;
+overflow: hidden;
+}
+em, i {
+font-style: normal;
+color: #999;
+}
+ul,li{
+list-style-type: none;
+}
+strong {
+font-weight: normal;
+}
+.clearfix:after {
+content: “”;
+display: block;
+visibility: hidden;
+height: 0;
+clear: both;
+}
+.clearfix {
+zoom: 1;
+}
+a {
+text-decoration: none;
+color: #969696;
+font-family: ‘Microsoft YaHei’, Tahoma, Arial, sans-serif;
+}
+a:hover {
+text-decoration: none;
+}
+ul, ol {
+list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+font-size: 100%;
+font-family: ‘Microsoft YaHei’;
+}
+img {
+border: none;
+}
+input{
+font-family: ‘Microsoft YaHei’;
+}
+
+/* 移动端点击a链接出现蓝色背景问题解决 */
+/* a:link,a:active,a:visited,a:hover {
+background: none;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-tap-highlight-color: transparent;
+} */
+
+
+
+
+/* 自适应字号 */
+@media screen and (min-width: 320px) {
+    html {font-size: 14px;}
+}
+ 
+@media screen and (min-width: 360px) {
+    html {font-size: 16px;}
+}
+ 
+@media screen and (min-width: 400px) {
+    html {font-size: 18px;}
+}
+ 
+@media screen and (min-width: 440px) {
+    html {font-size: 20px;}
+}
+ 
+@media screen and (min-width: 480px) {
+    html {font-size: 22px;}
+}
+ 
+@media screen and (min-width: 640px) {
+    html {font-size: 28px;}
+}
+
+
+
+/* MUSEUI */
+/* 使用说明diong */
+.userProExplainDiong{border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px;padding: 0 .3rem; }
+.userProExplainDiong .mu-dialog-title{font-size: 1rem;justify-content: center;}
+
+
+
+
+/* 押金提醒diong */
+.userProDepositDiong{ border-radius:0; padding: 0; TOP: 36%; -webkit-border-radius:0; -moz-border-radius:0; -ms-border-radius:0; -o-border-radius:0; }
+.userProDepositDiong .mu-dialog-title{font-size: 1rem;justify-content: center;}
+.userProDepositDiong .mu-dialog-body{text-align: center;}
+
+
+/* 押金提醒diong */
+.cooperationJoinInDiongStyle{border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px;padding: 0 .3rem;}
+.cooperationJoinInDiongStyle .mu-dialog-title{font-size: 1rem;justify-content: center;}
+.cooperationJoinInDiongStyle .mu-dialog-body{text-align: center;}
+.cooperationJoinInDiongStyle .mu-dialog-body img{padding-bottom: 1rem;}
+.cooperationJoinInDiongStyle .mu-dialog-body p{text-align: left;font-size: .8rem;max-height:12.5rem; overflow: hidden; overflow-y: auto;}
+.cooperationJoinInDiongStyle .mu-dialog-body .userProExplainClose{display: flex;justify-content: space-around;margin-top: 1rem;}
+
+
+/* 租赁弹窗 */
+.styleRentalDiong{ padding-top: .8rem; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px; }
+.styleRentalDiong div.mu-dialog-title{justify-content: center;font-size: 1rem;line-height: 0rem; color: #ff574c;font-weight: 700;}
+
+
+/* 出借成功弹窗 */
+.styleLoanSuccDiong{ padding-top: .8rem; border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -ms-border-radius: 8px; -o-border-radius: 8px;background: #f6f6f6;}
+.styleLoanSuccDiong div.mu-dialog-title{justify-content: center;font-size: 1rem;line-height: 0rem; }
+
+
+
+
+/* 按钮改造 */
+.mu-raised-button.mu-button-large .mu-button-wrapper{padding: 0 1.4rem;}
+.mu-info-color{background-color: #e6e6e6;color: #666;}
+.mu-primary-color{background-color:#405efe;}
+.mu-raised-button{ border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; }
+
+/* 设置按钮最小宽度 */
+.mu-raised-button{min-width:66px;}
+
+
+.mu-bottom-item-active .mu-bottom-item-text{margin-top: -3px;}
+
+
+
+
+.orderTab{background: #fff;border-bottom: 1px solid #f0f0f0;}
+.orderTab .mu-tab-wrapper{min-height: 4rem}
+
+
+
+
+
+
+
+
+
