@@ -29,7 +29,7 @@ npm axios : ^0.18.0
 #museui
 muse-ui : ^3.0.1
 
-
+访问地址：http://pd.haokuaichong.cn/palladium/web/index.htm
 
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
